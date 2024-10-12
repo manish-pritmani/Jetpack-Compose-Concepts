@@ -47,3 +47,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 }
+
+task("updateChangelog") {
+    println("Updating Changelog...")
+}
